@@ -149,7 +149,7 @@ detect_repository() {
 		info_message -n 'Downloading ansible scripts... '
 
 		cd "$tmp_dir"
-		curl -L https://github.com/DeskPRO/install/archive/master.tar.gz 2>>"${FULL_LOG_FILE}" | tar xz
+		curl -L https://github.com/PaulHHM/install/archive/master.tar.gz 2>>"${FULL_LOG_FILE}" | tar xz
 
 		info_message 'Done'
 
